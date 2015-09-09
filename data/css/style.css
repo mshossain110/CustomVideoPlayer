@@ -1,0 +1,58 @@
+* {
+	padding:0;
+	margin:0;
+	border:none;
+}
+body {
+  background: #cfe none repeat scroll 0 0;
+}
+.container {
+  margin: 30px auto;
+  width: 960px;
+}
+.player-wrapper {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.my-player {
+  display: block;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 690px;
+  margin: 0 auto;
+}
+.player-control {
+  position: relative;
+  top: -4px;
+}
+
+#play-pause {
+	position:absolute;
+	bottom:0px;
+	left:0px;
+	width:6%;
+	height:40px;
+	background:#000 url(../images/play-pause-btn.gif) 0px 0px no-repeat;
+	cursor:pointer;
+}
+#seekbar {
+	position:absolute;
+	bottom:0px;
+	left:41px;
+	width:84%;
+	height:6px;
+	background:#d61920 url(../images/seekbar-bg.gif) 0px 0px no-repeat;
+	border:17px solid #000;
+}
+
+#mute-unmute {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:6%;
+	height:40px;
+	background:#000 url(../images/mute-btn.gif) 0px 0px no-repeat;
+	cursor:pointer;
+}
